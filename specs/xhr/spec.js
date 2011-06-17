@@ -9,6 +9,10 @@ test('XMLHttpRequest Interfaces Available', function(){
     
 });
 
+require('settings');
+// Create local_settings that would override settings.js in the base directory
+require('local_settings');  
+
 var expected_path_a = 'specs/xhr/index.html';
 var expected_path_b = 'specs/xhr/';
 var url = SETTINGS.AJAX_BASE +'specs/fixtures/simple.txt',

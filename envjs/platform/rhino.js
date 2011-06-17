@@ -7,7 +7,6 @@
 
 var Envjs = Envjs || 
 	require('envjs/platform/core').Envjs;
-	require('local_settings');
 
 var __context__ = Packages.org.mozilla.javascript.Context.getCurrentContext();
 
